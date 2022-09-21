@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="102dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="47dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txtem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtem"
+        android:layout_width="103dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="2dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="67dp"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btntheft"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="175dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="75dp"
+        android:text="User Profile Page"
+        app:layout_constraintBottom_toTopOf="@+id/txtname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="29dp"
+        android:text="Specify the Kind of Crime you want to report"
+        app:layout_constraintBottom_toTopOf="@+id/btnattack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtem"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnattack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="19dp"
+        android:text="Attack"
+        app:layout_constraintBottom_toTopOf="@+id/btntheft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btntheft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="68dp"
+        android:text="Theft"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnattack"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
